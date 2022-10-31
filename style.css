@@ -1,0 +1,72 @@
+:root {
+  /* --primary-color: #ffedd5; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  /* width: 50vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+  background-color: #5eead4;
+}
+
+.description {
+  text-align: center;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+#bill-amount {
+  width: 40%;
+  height: 4vh;
+  margin-bottom: 1rem;
+  margin-top: 0.3rem;
+}
+
+#cash-given {
+  width: 40%;
+  height: 4vh;
+  margin-bottom: 1rem;
+  margin-top: 0.3rem;
+}
+
+#check-btn {
+  margin: 1rem;
+  width: 20%;
+  height: 5vh;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #0d9488;
+  color: white;
+}
+
+caption {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+table {
+  width: 80%;
+  margin-bottom: 1rem;
+  height: 15vh;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  width: 12%;
+}
